@@ -1,0 +1,66 @@
+.sidebar {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #d3d3d3;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.sidebar__header .MuiAvatar-root {
+  cursor: pointer;
+}
+
+.sidebar__header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+/* .sidebar__header-right > .MuiSvgIcon-root {
+        margin-right: 2vw;
+        font-size: 24px !important;
+      } */
+
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 39px;
+  padding: 10px;
+}
+
+.sidebar__search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.sidebar__search-container > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+  font-size: 44px !important;
+}
+
+.sidebar__search-container > input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  flex: 0.8;
+}
+
+.sidebar__chats {
+  background-color: #fff;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
